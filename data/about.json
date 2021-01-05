@@ -2,7 +2,7 @@
     {
         "name": "Brayan Javier Cadavid",
         "profession" : "Full Stack Developer",
-        "photo" : "https://i.ibb.co/ThFjyny/667e3492-0b16-4931-9946-fd6e39fdff6f.jpg",
+        "photo" : "https://i.ibb.co/GRKRSSh/fa.png",
         "about_me" : "Soy un apasionado informatico que disfruta programar en cualquier entorno , sobre todo en desarrollo web",
         "skills": [
         "Javascript",
@@ -10,8 +10,8 @@
         "ReactJS",
         "HTML",
         "CSS",
-        "MySQL",
-        "MongoDB"
+        "MongoDB",
+        "Java intermedio"
         ]
     }
 ]
