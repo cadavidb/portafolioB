@@ -5,10 +5,11 @@ const cors = require('cors');
 const data= require('./data/proyectos.json');
 const about= require('./data/about.json');
 
-const port= process.env.port || 3000;
+const port= process.env.PORT|| 3000;
 
 var app=express();
 app.use(cors());
+
 app.get('/',(req,res)=>{
     res.json(about)
 
