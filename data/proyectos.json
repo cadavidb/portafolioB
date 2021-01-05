@@ -1,0 +1,45 @@
+
+[
+        {
+            "name": "Tareas Por Hacer",
+            "descripcion": "para este proyecto use HTML, CSS, REACTJS y localstorage",
+            "image": "https://i.ibb.co/W6ZTJf1/task.png",
+            "link": "https://github.com/cadavidb/Tareasxhacer",
+            "deploy" : "https://cadavidb.github.io/Tareasxhacer/"
+        },
+    {
+        "name": "Stickers con la API Gyphi",
+        "descripcion": "Utilice REACTJS y CSS ",
+        "image": "https://i.ibb.co/NKn0wFW/gypi.png",
+        "deploy" : "https://cadavidb.github.io/Stickers_gyphi/",
+        "link github":"https://github.com/cadavidb/Stickers_gyphi"
+    },
+    {
+        "name": "App de Tickets ",
+        "descripcion": "Utilize HTML,CSS y la libreria Socket.io",
+        "image": "https://i.ibb.co/Y3QKzBw/Captura-de-pantalla-2021-01-04-18-19-28.png",
+        "link": "https://github.com/cadavidb/tickets",
+        "deploy" : "https://ticketss.herokuapp.com/"
+    },
+    {
+        "name": "Sala de chat",
+        "descripcion": "Utilize HTML,CSS,Less y la libreria Socket.io para comunicacion en tiempo real",
+        "image": "https://i.ibb.co/2d3k95Z/chat.png",
+        "link github": "https://github.com/cadavidb/chat_Sockets",
+        "deploy" : "https://chatupc.herokuapp.com/"
+    },
+    {
+        "name": "Servidor REST",
+        "descripcion": "utilice Nodejs,Express y MongoDB",
+        "image": "https://i.ibb.co/ThFjyny/667e3492-0b16-4931-9946-fd6e39fdff6f.jpg",
+        "link github": "https://github.com/cadavidb/Node_Rest_server"
+    },
+    {
+        "name": "Climas del mundo",
+        "descripcion": "use node js y la api open weather map",
+        "image": "https://i.ibb.co/ThFjyny/667e3492-0b16-4931-9946-fd6e39fdff6f.jpg",
+        "link github": "https://github.com/cadavidb/Climas_del_mundo"
+    }
+    
+
+]
