@@ -9,15 +9,16 @@ const port= process.env.port || 3000;
 
 var app=express();
 app.use(cors());
+app.get('/',(req,res)=>{
+    res.json(about)
 
+})
 //configurar puerto de manera global
 app.get('/proyectos',(req,res)=>{
     res.json(data)
 })
 
-app.get('/about',(req,res)=>{
-    res.json(about)
-})
+
 
 
 
