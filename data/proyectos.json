@@ -31,12 +31,12 @@
     {
         "name": "Servidor REST",
         "descripcion": "utilice Nodejs,Express y MongoDB",
-        "link github": "https://github.com/cadavidb/Node_Rest_server"
+        "github": "https://github.com/cadavidb/Node_Rest_server"
     },
     {
         "name": "Climas del mundo",
         "descripcion": "use node js y la api open weather map",
-        "link github": "https://github.com/cadavidb/Climas_del_mundo"
+        "github": "https://github.com/cadavidb/Climas_del_mundo"
     }
     
 
