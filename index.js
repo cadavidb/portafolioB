@@ -1,31 +1,37 @@
 //un pequeño servidor con express para el backend de mi portafolio
+
 const express = require('express');
 const cors = require('cors');
 
-const dataProyectos=require('./data/proyectos.json');
-const dataAbout=require('./data/about.json');
+//data
 
+const about=require('./data/about.json');
+const proyectos=require('./data/proyectos.json');
+var app= express();
 
-var app=express()
+// middleware
 
-//middleware
+app.use(cors())
 
-app.use(cors());
 
 //set port 
 
 const port= process.env.PORT || 3000;
 
-app.get('/proyectos',(req,res)=>{
+// set routes
 
-    res.json(dataProyectos)
 
-})
+
 app.get('/about',(req,res)=>{
 
-    res.json(dataAbout)
+    res.json(about)
 
 })
+app.get('/proyectos',(req,res)=>{
+    res.json(proyectos)
+})
+
+
 
 
 
